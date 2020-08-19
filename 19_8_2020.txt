@@ -91,3 +91,26 @@ nine lessons the hard way!
     We humans generally start counting at one. Computers start at zero. This simple fact has been the 
     fuel for numerous bugs and difficulties. Chances are, you've had your share of off-by-one errors 
     already. If not, one day they'll get you too. 
+
+8. A FOOD PROGRAMMER LOOKS BOTH WAYS BEFORE CROSSING A ONE-WAY STREET 
+    The best software can handle all errors, and I mean all. Even those that 
+    "will never happen."
+
+    Most software  is written to carry out the "happy flow" in which everthing 
+    works as expected and the user doesn't do weird stuff. The real world is messy, 
+    and over time, stuff that can possibly go wrong will go wrong. Try to 
+    catch as many errors as you can - especially when your software is fulfilling crucial 
+    functionlaity. 
+
+9. MEASUTING PROGRAMMING PROGRESS BY LINES OF CODE IS LIKE MEASURING AIRCRAFT 
+BUILDING PROGRESS BY WEIGHT 
+    More lines of code do not equal progress. For the smae reason, writing more code than others does not mean you're 
+    more productive. 
+
+    The best code uses the least amount of lines to get the job done and is 
+    also the hardest to write. This is a well-known software princile 
+    called KISS - short for "keep it simple, stupid."
+
+    If you want to learn more about software endineering best practices, make sure to read my artivle 
+    " the 12 habis of highly effective software developers."
+    
