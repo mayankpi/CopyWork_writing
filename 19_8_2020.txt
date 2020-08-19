@@ -1,0 +1,93 @@
+9 Programmer life lessons you must experience yourself to truly understand
+(One way or another, you will stumble upon these)
+-by Erik van Baaren
+
+link=> https://medium.com/better-programming/9-programmer-life-lessons-you-must-experience-yourself-to-truly-understand-686daad49128
+
+In programming, ther are many lessons to be learned from expreience. I had to learn the following 
+nine lessons the hard way!
+
+1. THE CHEAPEST, FASTEST, AND RELIABLE COMPONENTS ARE THOSE THAT AREN'T THERE
+    This was once said by Gorfon Bell. The lesson to draw here is that you should keep a system or 
+    piece of software as simple as you possibly can. Reduce complexity to reduce the number of bugs.
+
+2. VOODOO CODING 
+    Sometimes, you manage to fix a bug but don't understand why. Most programmers have been ther, 
+    but never, ever leave it at that. Always make sure you understand your code. Find out why this 
+    change did the trick.
+
+    This mindset will teach you more than books ever could. Don't be ashamed and ask someone else if 
+    you  need to. At some point, you'll notice you've become the one people turn to instead. 
+
+    The same holds for copy-paster code. Yep, we all use Stack Overflow sometimes. Tere's no shame in that!
+    But if you don't understand the code, wither don't use it or ask someone ealse for help. 
+
+    Creating or using code you don't understand is also referred to as voodoo coding. It's a bug 
+    waiting to happen. 
+
+3. CODE NEVER LIES, COMMENTS SOMETIMES DO 
+    Comments have a vital function, but if you can, don't use comments and write more descriptive 
+    code instead. 
+
+    "Wait, why?"
+
+    Comments are often overlooked while you change your code. Hence my statement: Comments sometimes 
+    lie( are incorrect) because the code around them has changed and the comment was left untouched. 
+
+    there are three ways to document code: 
+        1. Use comments inside your code. 
+        2. Write documentation in a separate document.
+        3. Write self-documenting code.
+    
+    Let me elaborate on that last point because that's what I mean by writing more descriptive code;
+        - use food design so your codebase is easy to navigate and structured logically. 
+        - Don't try to save characters. Use full names for your variables, classes, and functions. So, instead 
+        of wm, name it windowManager. Instead of rf, call it readFileToString. This name helps tremendously whne 
+        you or others try to understand what's going on after a few months of not looking at the code. 
+        - Extract as mych as you possibly can into functions and make these functions do one thing. 
+        Name them accordingly. For example, create a function that reads a file into a string, and name 
+        it readFileToString (String fileName). Without reading the code in detail, prople will know what 
+        it does. Ideally, your code is a sequience of function calls like this that almost read like human 
+        language. Only when needed, the reader can dive in deeper. This code documents itself!
+
+    
+4. REGULAR EXPRESSIONS
+    When confronted with a problem, some prople think, " I know, I'll use regular expressions!" 
+    Now they have two problems.
+
+    Its and old joke, but it's true. Regular expressions are a pain. When you think you finally got it 
+    right for one case, it matches 70% of the next case you feed it. 
+
+    This is just my opinion, but I'd suggest avoiding regexes like th eplague unless you really 
+    can't do without them. Often, a combination of functions like spit, substring, endsWith, indexOf, etc. wil do 
+    the truck and result is more readable code. 
+
+5. SOFTWARE IS LIKE CATHHEDRALS: FIRST, WE BUILD THEM - THEN WE PRAY
+    the Cathedral and the Bazaar is book that contrasts two diggernt development models. As Wikipedia 
+    puts it: 
+    "the Cathedral model, in which source code is available with each software release, but code 
+    developed between releases is restricted to an exclusive group of software developers. 
+    
+    The Bazaar model, in which the code is developed over the internet in plain view of the public. 
+    Linus Torvalds, leader of the Linux kernel project, is seen as the inventor of this process."
+
+    Both models have theiw pros and cons. However, it is generally accepted that software is something 
+    that needs an iterative development process where functionality is added gradually. Preferably, end-users are involved in the 
+    development process from early on. 
+
+6. CHEAP, FAST, RELEABLE: PICK TWO 
+    I love this one because it makes the people hearing it (your managers) think for themselves:
+
+    - You want it to be reliable and fast? It can be done, but you'll need to pay the best developers. 
+    - Cheap and fast? Sure, but don't expect it to be reliable!
+    - Reliable and cheap? Maybe if you're lucky. But it will take more time to find someone who can 
+    do it for cheap, or it will require a lot of iterations ( hence more time ) to get it right. 
+
+7. THER ARE TWO DIFFICULT THINGS IN SOFTWARE ENGINEERING 
+    0. Naming things 
+    1. Cache invalidation
+    2. Off-by-one errors 
+
+    We humans generally start counting at one. Computers start at zero. This simple fact has been the 
+    fuel for numerous bugs and difficulties. Chances are, you've had your share of off-by-one errors 
+    already. If not, one day they'll get you too. 
