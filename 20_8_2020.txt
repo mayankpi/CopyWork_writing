@@ -16,7 +16,7 @@ They spend an entire semester going over various subjects and investing hours up
 the material, only to find themselves forgetting the material a few hours after finishing their 
 final exams.
 
-Hermann Ebbinghaus, a German psychologist, discovered the forgetting curve - a concept that hypothesized th 
+Hermann Ebbinghaus, a German psychologist, discovered the  forgetting curve - a concept that hypothesized th 
 decline of memory retention in time. 
 
 The forgetting curve is the steepest during the first day, so if you don't review what you've recently 
